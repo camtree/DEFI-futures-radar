@@ -1,0 +1,42 @@
+{% set title = "Admin" %}
+{% include "includes/header.html" %}
+
+<header class="page-header">
+    <h2>Admin</h2>
+    <p class="summary">Refresh generated RDF files from the managed source data.</p>
+</header>
+
+<section class="admin-panel" aria-label="RDF conversion">
+    <h2>RDF Refresh</h2>
+    <p>Generate Turtle and JSON-LD files under <code>rdf/</code>.</p>
+    <a class="action-link" href="{{ url_for('refresh_rdf') }}">Refresh RDF</a>
+</section>
+
+{% if error %}
+    <section class="admin-panel error-panel" aria-label="Conversion error">
+        <h2>Conversion Error</h2>
+        <p>{{ error }}</p>
+    </section>
+{% endif %}
+
+{% if converted %}
+    <section class="admin-panel" aria-label="Conversion results">
+        <h2>Conversion Results</h2>
+        {% if results %}
+            <ul class="result-list">
+                {% for result in results %}
+                    <li>
+                        <strong>{{ result.source_path }}</strong>
+                        <span>{{ result.row_count }} rows</span>
+                        <span>{{ result.ttl_path }}</span>
+                        <span>{{ result.jsonld_path }}</span>
+                    </li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>Conversion completed.</p>
+        {% endif %}
+    </section>
+{% endif %}
+
+{% include "includes/footer.html" %}

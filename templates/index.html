@@ -1,0 +1,127 @@
+{% set title = "Data Catalogues" %}
+{% include "includes/header.html" %}
+
+<section class="explorer-shell" aria-label="Data catalogue explorer">
+    <aside class="explorer-sidebar" aria-label="Data catalogue navigation">
+        <nav class="catalog-list" aria-label="Catalogues">
+            {% for group in catalog_groups %}
+                <div class="catalog-list-divider" aria-hidden="true">{{ group.name }}</div>
+                {% for catalog in group.catalogs %}
+                    <a
+                        class="catalog-list-link {% if selected_catalog and catalog.id == selected_catalog.id %}active{% endif %}"
+                        href="{{ url_for('list_data_catalogs', catalog=catalog.id) }}"
+                    >
+                        {{ catalog.title }}
+                    </a>
+                {% endfor %}
+            {% endfor %}
+        </nav>
+    </aside>
+
+    <section class="explorer-detail" aria-label="Selected catalogue details">
+        {% if selected_catalog %}
+            <header class="detail-header">
+                <p class="eyebrow">{{ selected_catalog.id }}</p>
+                <h1>{{ selected_catalog.title }}</h1>
+                <div class="meta">
+                    {% if selected_catalog.spatial %}
+                        <span class="tag">{{ selected_catalog.spatial }}</span>
+                    {% endif %}
+                    {% if selected_catalog.language %}
+                        <span class="tag">{{ selected_catalog.language }}</span>
+                    {% endif %}
+                </div>
+            </header>
+
+            <section class="detail-section">
+                <h2>Description</h2>
+                {% if selected_catalog.description %}
+                    <p class="description">{{ selected_catalog.description }}</p>
+                {% else %}
+                    <p class="muted">No description available.</p>
+                {% endif %}
+            </section>
+
+            <section class="detail-section">
+                <h2>Agent</h2>
+                <p>
+                    {% if selected_catalog.agent_homepage %}
+                        <a href="{{ selected_catalog.agent_homepage }}" target="_blank" rel="noopener noreferrer">{{ selected_catalog.agent_name }}</a>
+                    {% else %}
+                        {{ selected_catalog.agent_name }}
+                    {% endif %}
+                    {% if selected_catalog.agent_label %}
+                        <span class="muted">({{ selected_catalog.agent_label }})</span>
+                    {% endif %}
+                </p>
+                {% if selected_catalog.agent_id %}
+                    <p class="muted">{{ selected_catalog.agent_id }}</p>
+                {% endif %}
+            </section>
+
+            <section class="detail-section">
+                <h2>Source</h2>
+                <dl class="link-list">
+                    {% if selected_catalog.homepage %}
+                        <div>
+                            <dt>Homepage</dt>
+                            <dd><a href="{{ selected_catalog.homepage }}" target="_blank" rel="noopener noreferrer">{{ selected_catalog.homepage }}</a></dd>
+                        </div>
+                    {% endif %}
+                    {% if selected_catalog.landing_page %}
+                        <div>
+                            <dt>Landing page</dt>
+                            <dd><a href="{{ selected_catalog.landing_page }}" target="_blank" rel="noopener noreferrer">{{ selected_catalog.landing_page }}</a></dd>
+                        </div>
+                    {% endif %}
+                </dl>
+            </section>
+
+            <section class="detail-section">
+                <h2>Datasets</h2>
+                {% if selected_catalog.datasets %}
+                    <ul class="dataset-list">
+                        {% for dataset in selected_catalog.datasets %}
+                            <li>
+                                <div>
+                                    {% if dataset.landing_page %}
+                                        <a href="{{ dataset.landing_page }}" target="_blank" rel="noopener noreferrer">{{ dataset.title }}</a>
+                                    {% else %}
+                                        <span>{{ dataset.title }}</span>
+                                    {% endif %}
+                                    <p class="muted">{{ dataset.id }}</p>
+                                </div>
+                                {% if dataset.description %}
+                                    <p class="description">{{ dataset.description }}</p>
+                                {% endif %}
+                                <div class="meta">
+                                    {% if dataset.spatial %}
+                                        <span class="tag">{{ dataset.spatial }}</span>
+                                    {% endif %}
+                                    {% if dataset.temporal %}
+                                        <span class="tag">{{ dataset.temporal }}</span>
+                                    {% endif %}
+                                    {% if dataset.language %}
+                                        <span class="tag">{{ dataset.language }}</span>
+                                    {% endif %}
+                                </div>
+                                {% if dataset.identifier %}
+                                    <p class="muted">Identifier: {{ dataset.identifier }}</p>
+                                {% endif %}
+                            </li>
+                        {% endfor %}
+                    </ul>
+                {% else %}
+                    <p class="muted">No datasets linked to this catalogue yet.</p>
+                {% endif %}
+            </section>
+        {% else %}
+            <section class="empty-state">
+                <h1>No Catalogues Found</h1>
+                <p>Refresh the RDF outputs from the admin page.</p>
+            </section>
+        {% endif %}
+    </section>
+</section>
+
+{% include "includes/footer.html" %}
