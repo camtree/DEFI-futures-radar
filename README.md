@@ -7,7 +7,8 @@ It is associated with a [Github project space](https://github.com/users/camtree/
 
 Content is developed offline and local applications can be tested as localhost.  
 Patrick currently uses Pycharm as the development environment.
-This is set up to push content into this repository.
+This is set up to push content (code and data) into this repository.
+
 For public deployment, we use Render to build and deploy Flask Apps (and potentially static content and web services as needed).
 
 ## Data Explorer
@@ -28,7 +29,7 @@ Run the app:
 flask --app app run
 ```
 
-Open:
+Open on localhost:
 
 - `http://127.0.0.1:5000/data-catalogs`
 - `http://127.0.0.1:5000/admin`
