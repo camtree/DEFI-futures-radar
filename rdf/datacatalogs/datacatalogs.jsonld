@@ -1,12 +1,12 @@
 [
   {
-    "@id": "https://data.futures-radar.example/catalog/uk-national-archives",
+    "@id": "https://data.futures-radar.example/catalog/un-sdg-indicators",
     "@type": [
       "http://www.w3.org/ns/dcat#Catalog"
     ],
     "http://purl.org/dc/terms/description": [
       {
-        "@value": "The National Archives is the official archive of the UK government and preserves the nation’s public record."
+        "@value": "Access to data on more than 210 SDG indicators for countries, areas or regions across the globe."
       }
     ],
     "http://purl.org/dc/terms/language": [
@@ -16,7 +16,7 @@
     ],
     "http://purl.org/dc/terms/publisher": [
       {
-        "@id": "https://data.futures-radar.example/agent/uk-gov"
+        "@id": "https://data.futures-radar.example/agent/un"
       }
     ],
     "http://purl.org/dc/terms/spatial": [
@@ -26,99 +26,17 @@
     ],
     "http://purl.org/dc/terms/title": [
       {
-        "@value": "UK National Archives"
+        "@value": "UN SDG Indicators Database"
       }
     ],
     "http://www.w3.org/ns/dcat#landingPage": [
       {
-        "@id": "https://discovery.nationalarchives.gov.uk/"
+        "@id": "https://unstats.un.org/sdgs/metadata/"
       }
     ],
     "http://xmlns.com/foaf/0.1/homepage": [
       {
-        "@id": "https://discovery.nationalarchives.gov.uk/"
-      }
-    ]
-  },
-  {
-    "@id": "https://data.futures-radar.example/catalog/harvard-dataverse",
-    "@type": [
-      "http://www.w3.org/ns/dcat#Catalog"
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@value": "An open source web application for sharing, preserving, citing, exploring, and analyzing research data."
-      }
-    ],
-    "http://purl.org/dc/terms/language": [
-      {
-        "@value": "en"
-      }
-    ],
-    "http://purl.org/dc/terms/publisher": [
-      {
-        "@id": "https://data.futures-radar.example/agent/university-harvard"
-      }
-    ],
-    "http://purl.org/dc/terms/spatial": [
-      {
-        "@value": "Global"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@value": "Harvard Dataverse"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#landingPage": [
-      {
-        "@id": "https://dataverse.harvard.edu/"
-      }
-    ],
-    "http://xmlns.com/foaf/0.1/homepage": [
-      {
-        "@id": "https://dataverse.harvard.edu/"
-      }
-    ]
-  },
-  {
-    "@id": "https://data.futures-radar.example/catalog/ru-data-gov",
-    "@type": [
-      "http://www.w3.org/ns/dcat#Catalog"
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@value": "The Open Data Portal of the Russian Federation is a comprehensive government system that ensures open information on the activities of government bodies and provides centralized access to open government information resources to all citizens and organizations."
-      }
-    ],
-    "http://purl.org/dc/terms/language": [
-      {
-        "@value": "ru"
-      }
-    ],
-    "http://purl.org/dc/terms/publisher": [
-      {
-        "@id": "https://data.futures-radar.example/agent/ru-gov"
-      }
-    ],
-    "http://purl.org/dc/terms/spatial": [
-      {
-        "@value": "RU"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@value": "Портал открытых данных Российской Федерации"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#landingPage": [
-      {
-        "@id": "https://data.gov.ru/"
-      }
-    ],
-    "http://xmlns.com/foaf/0.1/homepage": [
-      {
-        "@id": "https://data.gov.ru/"
+        "@id": "https://unstats.un.org/sdgs/metadata/"
       }
     ]
   },
@@ -164,88 +82,6 @@
     ]
   },
   {
-    "@id": "https://data.futures-radar.example/catalog/uk-adruk",
-    "@type": [
-      "http://www.w3.org/ns/dcat#Catalog"
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@value": "ADR UK is a UK-wide partnership that enables public-sector administrative data to be securely linked and accessed for research."
-      }
-    ],
-    "http://purl.org/dc/terms/language": [
-      {
-        "@value": "en"
-      }
-    ],
-    "http://purl.org/dc/terms/publisher": [
-      {
-        "@id": "https://data.futures-radar.example/agent/uk-gov"
-      }
-    ],
-    "http://purl.org/dc/terms/spatial": [
-      {
-        "@value": "UK"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@value": "Administrative Data Research UK"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#landingPage": [
-      {
-        "@id": "https://www.adruk.org/data-access/data-catalogue/"
-      }
-    ],
-    "http://xmlns.com/foaf/0.1/homepage": [
-      {
-        "@id": "https://www.adruk.org/data-access/data-catalogue/"
-      }
-    ]
-  },
-  {
-    "@id": "https://data.futures-radar.example/catalog/eurostat",
-    "@type": [
-      "http://www.w3.org/ns/dcat#Catalog"
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@value": "High-quality statistics and data on Europe."
-      }
-    ],
-    "http://purl.org/dc/terms/language": [
-      {
-        "@value": "en||fr||de"
-      }
-    ],
-    "http://purl.org/dc/terms/publisher": [
-      {
-        "@id": "https://data.futures-radar.example/agent/eurostat"
-      }
-    ],
-    "http://purl.org/dc/terms/spatial": [
-      {
-        "@value": "Europe"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@value": "Eurostat"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#landingPage": [
-      {
-        "@id": "https://ec.europa.eu/eurostat"
-      }
-    ],
-    "http://xmlns.com/foaf/0.1/homepage": [
-      {
-        "@id": "https://ec.europa.eu/eurostat"
-      }
-    ]
-  },
-  {
     "@id": "https://data.futures-radar.example/catalog/asean-data-portal",
     "@type": [
       "http://www.w3.org/ns/dcat#Catalog"
@@ -283,293 +119,6 @@
     "http://xmlns.com/foaf/0.1/homepage": [
       {
         "@id": "https://data.aseanstats.org/"
-      }
-    ]
-  },
-  {
-    "@id": "https://data.futures-radar.example/catalog/oecd-data",
-    "@type": [
-      "http://www.w3.org/ns/dcat#Catalog"
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@value": "The OECD Data Explorer is the organisation's data warehouse, providing access to all OECD statistical data.  It is the entry point for figures on a wide range of statistical topics, covering OECD member countries and partner economies."
-      }
-    ],
-    "http://purl.org/dc/terms/language": [
-      {
-        "@value": "en"
-      }
-    ],
-    "http://purl.org/dc/terms/publisher": [
-      {
-        "@id": "https://data.futures-radar.example/agent/oecd"
-      }
-    ],
-    "http://purl.org/dc/terms/spatial": [
-      {
-        "@value": "Global"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@value": "OECD Data"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#landingPage": [
-      {
-        "@id": "https://data.oecd.org"
-      }
-    ],
-    "http://xmlns.com/foaf/0.1/homepage": [
-      {
-        "@id": "https://data.oecd.org"
-      }
-    ]
-  },
-  {
-    "@id": "https://data.futures-radar.example/catalog/usa-data-gov",
-    "@type": [
-      "http://www.w3.org/ns/dcat#Catalog"
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@value": "The United States Government’s open-data site. Publishes government open data to inform public and policymaker decisions, stimulate innovation and economic activity, support agencies in their missions, and strengthen open and transparent government."
-      }
-    ],
-    "http://purl.org/dc/terms/language": [
-      {
-        "@value": "en"
-      }
-    ],
-    "http://purl.org/dc/terms/publisher": [
-      {
-        "@id": "https://data.futures-radar.example/agent/us-gov"
-      }
-    ],
-    "http://purl.org/dc/terms/spatial": [
-      {
-        "@value": "USA"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@value": "Data.gov"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#landingPage": [
-      {
-        "@id": "https://data.gov/"
-      }
-    ],
-    "http://xmlns.com/foaf/0.1/homepage": [
-      {
-        "@id": "https://data.gov/"
-      }
-    ]
-  },
-  {
-    "@id": "https://data.futures-radar.example/catalog/world-bank-data-catalogue",
-    "@type": [
-      "http://www.w3.org/ns/dcat#Catalog"
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@value": "The Data Catalog is designed to make World Bank's development data easy to find, download, use, and share. It includes data from the World Bank's microdata, finances and energy data platforms, as well as datasets from the open data catalog."
-      }
-    ],
-    "http://purl.org/dc/terms/language": [
-      {
-        "@value": "en"
-      }
-    ],
-    "http://purl.org/dc/terms/publisher": [
-      {
-        "@id": "https://data.futures-radar.example/agent/world-bank"
-      }
-    ],
-    "http://purl.org/dc/terms/spatial": [
-      {
-        "@value": "Global"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@value": "World Bank Data Catalogue"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#landingPage": [
-      {
-        "@id": "https://datacatalog.worldbank.org/"
-      }
-    ],
-    "http://xmlns.com/foaf/0.1/homepage": [
-      {
-        "@id": "https://datacatalog.worldbank.org/"
-      }
-    ]
-  },
-  {
-    "@id": "https://data.futures-radar.example/catalog/sg-data-gov",
-    "@type": [
-      "http://www.w3.org/ns/dcat#Catalog"
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@value": "Data.gov.sg is Singapore’s open government data platform."
-      }
-    ],
-    "http://purl.org/dc/terms/language": [
-      {
-        "@value": "en"
-      }
-    ],
-    "http://purl.org/dc/terms/publisher": [
-      {
-        "@id": "https://data.futures-radar.example/agent/sg-gov"
-      }
-    ],
-    "http://purl.org/dc/terms/spatial": [
-      {
-        "@value": "SG"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@value": "Singapore's open data portal"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#landingPage": [
-      {
-        "@id": "https://data.gov.sg"
-      }
-    ],
-    "http://xmlns.com/foaf/0.1/homepage": [
-      {
-        "@id": "https://data.gov.sg"
-      }
-    ]
-  },
-  {
-    "@id": "https://data.futures-radar.example/catalog/nl-data-overheid",
-    "@type": [
-      "http://www.w3.org/ns/dcat#Catalog"
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@value": "Data.overheid.nl is the National Data Portal of the Dutch government, describing and providing access to Dutch government data, including both open and restricted datasets."
-      }
-    ],
-    "http://purl.org/dc/terms/language": [
-      {
-        "@value": "nl"
-      }
-    ],
-    "http://purl.org/dc/terms/publisher": [
-      {
-        "@id": "https://data.futures-radar.example/agent/nl-gov"
-      }
-    ],
-    "http://purl.org/dc/terms/spatial": [
-      {
-        "@value": "NL"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@value": "Open data van de Overheid"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#landingPage": [
-      {
-        "@id": "https://data.overheid.nl"
-      }
-    ],
-    "http://xmlns.com/foaf/0.1/homepage": [
-      {
-        "@id": "https://data.overheid.nl"
-      }
-    ]
-  },
-  {
-    "@id": "https://data.futures-radar.example/catalog/un-sdg-indicators",
-    "@type": [
-      "http://www.w3.org/ns/dcat#Catalog"
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@value": "Access to data on more than 210 SDG indicators for countries, areas or regions across the globe."
-      }
-    ],
-    "http://purl.org/dc/terms/language": [
-      {
-        "@value": "en"
-      }
-    ],
-    "http://purl.org/dc/terms/publisher": [
-      {
-        "@id": "https://data.futures-radar.example/agent/un"
-      }
-    ],
-    "http://purl.org/dc/terms/spatial": [
-      {
-        "@value": "UK"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@value": "UN SDG Indicators Database"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#landingPage": [
-      {
-        "@id": "https://unstats.un.org/sdgs/metadata/"
-      }
-    ],
-    "http://xmlns.com/foaf/0.1/homepage": [
-      {
-        "@id": "https://unstats.un.org/sdgs/metadata/"
-      }
-    ]
-  },
-  {
-    "@id": "https://data.futures-radar.example/catalog/in-data-gov",
-    "@type": [
-      "http://www.w3.org/ns/dcat#Catalog"
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@value": "Data.gov.in is India’s Open Government Data (OGD) Platform, a Government of India/Digital India initiative through which ministries and departments publish government datasets."
-      }
-    ],
-    "http://purl.org/dc/terms/language": [
-      {
-        "@value": "hi||en"
-      }
-    ],
-    "http://purl.org/dc/terms/publisher": [
-      {
-        "@id": "https://data.futures-radar.example/agent/in-gov"
-      }
-    ],
-    "http://purl.org/dc/terms/spatial": [
-      {
-        "@value": "IN"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@value": "Open Government Data Platform India"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#landingPage": [
-      {
-        "@id": "https://data.gov.in"
-      }
-    ],
-    "http://xmlns.com/foaf/0.1/homepage": [
-      {
-        "@id": "https://data.gov.in"
       }
     ]
   },
@@ -615,13 +164,13 @@
     ]
   },
   {
-    "@id": "https://data.futures-radar.example/catalog/au-data-gov",
+    "@id": "https://data.futures-radar.example/catalog/usa-data-gov",
     "@type": [
       "http://www.w3.org/ns/dcat#Catalog"
     ],
     "http://purl.org/dc/terms/description": [
       {
-        "@value": "Data.gov.au is the Australian Government’s national data portal, providing a central place for discovering government datasets and other public data resources."
+        "@value": "The United States Government’s open-data site. Publishes government open data to inform public and policymaker decisions, stimulate innovation and economic activity, support agencies in their missions, and strengthen open and transparent government."
       }
     ],
     "http://purl.org/dc/terms/language": [
@@ -631,68 +180,27 @@
     ],
     "http://purl.org/dc/terms/publisher": [
       {
-        "@id": "https://data.futures-radar.example/agent/au-data-gov"
+        "@id": "https://data.futures-radar.example/agent/us-gov"
       }
     ],
     "http://purl.org/dc/terms/spatial": [
       {
-        "@value": "AU"
+        "@value": "USA"
       }
     ],
     "http://purl.org/dc/terms/title": [
       {
-        "@value": "Data.gov.au"
+        "@value": "Data.gov"
       }
     ],
     "http://www.w3.org/ns/dcat#landingPage": [
       {
-        "@id": "https://data.gov.au/data/dataset"
+        "@id": "https://data.gov/"
       }
     ],
     "http://xmlns.com/foaf/0.1/homepage": [
       {
-        "@id": "https://data.gov.au"
-      }
-    ]
-  },
-  {
-    "@id": "https://data.futures-radar.example/catalog/imf-data",
-    "@type": [
-      "http://www.w3.org/ns/dcat#Catalog"
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@value": "Access to economic and financial data."
-      }
-    ],
-    "http://purl.org/dc/terms/language": [
-      {
-        "@value": "en"
-      }
-    ],
-    "http://purl.org/dc/terms/publisher": [
-      {
-        "@id": "https://data.futures-radar.example/agent/imf"
-      }
-    ],
-    "http://purl.org/dc/terms/spatial": [
-      {
-        "@value": "Global"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@value": "IMF Data"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#landingPage": [
-      {
-        "@id": "https://data.imf.org"
-      }
-    ],
-    "http://xmlns.com/foaf/0.1/homepage": [
-      {
-        "@id": "https://data.imf.org"
+        "@id": "https://data.gov/"
       }
     ]
   },
@@ -738,120 +246,330 @@
     ]
   },
   {
-    "@id": "https://data.futures-radar.example/catalog/open-africa",
+    "@id": "https://data.futures-radar.example/catalog/au-data-gov",
     "@type": [
       "http://www.w3.org/ns/dcat#Catalog"
     ],
     "http://purl.org/dc/terms/description": [
       {
-        "@value": "Aims to be the largest independent repository of open data on the African continent."
-      }
-    ],
-    "http://purl.org/dc/terms/publisher": [
-      {
-        "@id": "https://data.futures-radar.example/agent/openafrica"
-      }
-    ],
-    "http://purl.org/dc/terms/spatial": [
-      {
-        "@value": "Africa"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@value": "Open Africa"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#landingPage": [
-      {
-        "@id": "https://open.africa/dataset"
-      }
-    ],
-    "http://xmlns.com/foaf/0.1/homepage": [
-      {
-        "@id": "https://open.africa/"
-      }
-    ]
-  },
-  {
-    "@id": "https://data.futures-radar.example/catalog/ca-data",
-    "@type": [
-      "http://www.w3.org/ns/dcat#Catalog"
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@value": "Open.Canada.ca is the Government of Canada’s Open Government portal, bringing together open government data and information from federal and participating other jurisdictions."
+        "@value": "Data.gov.au is the Australian Government’s national data portal, providing a central place for discovering government datasets and other public data resources."
       }
     ],
     "http://purl.org/dc/terms/language": [
       {
-        "@value": "en||fr"
+        "@value": "en"
       }
     ],
     "http://purl.org/dc/terms/publisher": [
       {
-        "@id": "https://data.futures-radar.example/agent/ca-gov"
+        "@id": "https://data.futures-radar.example/agent/au-data-gov"
       }
     ],
     "http://purl.org/dc/terms/spatial": [
       {
-        "@value": "CA"
+        "@value": "AU"
       }
     ],
     "http://purl.org/dc/terms/title": [
       {
-        "@value": "Open Government Portal Canada"
+        "@value": "Data.gov.au"
       }
     ],
     "http://www.w3.org/ns/dcat#landingPage": [
       {
-        "@id": "https://search.open.canada.ca/opendata/"
+        "@id": "https://data.gov.au/data/dataset"
       }
     ],
     "http://xmlns.com/foaf/0.1/homepage": [
       {
-        "@id": "https://open.canada.ca/en"
+        "@id": "https://data.gov.au"
       }
     ]
   },
   {
-    "@id": "https://data.futures-radar.example/catalog/br-dados-gov",
+    "@id": "https://data.futures-radar.example/catalog/undata",
     "@type": [
       "http://www.w3.org/ns/dcat#Catalog"
     ],
     "http://purl.org/dc/terms/description": [
       {
-        "@value": "Dados.gov.br is the Brazilian Federal Government’s Portal de Dados Abertos, providing a central catalogue and infrastructure for government organisations to publish and users to discover open datasets."
+        "@value": "UNdata brings international statistical databases within easy reach of users through a single-entry point. Users can search and download a variety of statistical resources compiled by the United Nations (UN) statistical system and other international agencies."
       }
     ],
     "http://purl.org/dc/terms/language": [
       {
-        "@value": "pt"
+        "@value": "en"
       }
     ],
     "http://purl.org/dc/terms/publisher": [
       {
-        "@id": "https://data.futures-radar.example/agent/br-gov"
+        "@id": "https://data.futures-radar.example/agent/un"
       }
     ],
     "http://purl.org/dc/terms/spatial": [
       {
-        "@value": "BR"
+        "@value": "Global"
       }
     ],
     "http://purl.org/dc/terms/title": [
       {
-        "@value": "Portal Brasileiro de Dados Abertos"
+        "@value": "UNdata"
       }
     ],
     "http://www.w3.org/ns/dcat#landingPage": [
       {
-        "@id": "https://dados.gov.br"
+        "@id": "https://data.un.org"
       }
     ],
     "http://xmlns.com/foaf/0.1/homepage": [
       {
-        "@id": "https://dados.gov.br"
+        "@id": "https://data.un.org"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.futures-radar.example/catalog/world-bank-data-catalogue",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Catalog"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "The Data Catalog is designed to make World Bank's development data easy to find, download, use, and share. It includes data from the World Bank's microdata, finances and energy data platforms, as well as datasets from the open data catalog."
+      }
+    ],
+    "http://purl.org/dc/terms/language": [
+      {
+        "@value": "en"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "https://data.futures-radar.example/agent/world-bank"
+      }
+    ],
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@value": "Global"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "World Bank Data Catalogue"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#landingPage": [
+      {
+        "@id": "https://datacatalog.worldbank.org/"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/homepage": [
+      {
+        "@id": "https://datacatalog.worldbank.org/"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.futures-radar.example/catalog/uk-ons",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Catalog"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "The ONS is the UK’s largest independent producer of official statistics and the country’s recognised national statistical institute."
+      }
+    ],
+    "http://purl.org/dc/terms/language": [
+      {
+        "@value": "en"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "https://data.futures-radar.example/agent/uk-gov"
+      }
+    ],
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@value": "UK"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "UK Office for National Statistics"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#landingPage": [
+      {
+        "@id": "https://www.ons.gov.uk/"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/homepage": [
+      {
+        "@id": "https://www.ons.gov.uk/"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.futures-radar.example/catalog/de-data-gov",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Catalog"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "GovData is Germany’s data portal, providing a single central point of access to administrative data from federal, state and municipal levels of government as well as other public-sector sources."
+      }
+    ],
+    "http://purl.org/dc/terms/language": [
+      {
+        "@value": "de"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "https://data.futures-radar.example/agent/de-gov"
+      }
+    ],
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@value": "DE"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "Das Datenportal für Deutschland"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#landingPage": [
+      {
+        "@id": "https://govdata.de"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/homepage": [
+      {
+        "@id": "https://govdata.de"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.futures-radar.example/catalog/eurostat",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Catalog"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "High-quality statistics and data on Europe."
+      }
+    ],
+    "http://purl.org/dc/terms/language": [
+      {
+        "@value": "en||fr||de"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "https://data.futures-radar.example/agent/eurostat"
+      }
+    ],
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@value": "Europe"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "Eurostat"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#landingPage": [
+      {
+        "@id": "https://ec.europa.eu/eurostat"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/homepage": [
+      {
+        "@id": "https://ec.europa.eu/eurostat"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.futures-radar.example/catalog/nl-data-overheid",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Catalog"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "Data.overheid.nl is the National Data Portal of the Dutch government, describing and providing access to Dutch government data, including both open and restricted datasets."
+      }
+    ],
+    "http://purl.org/dc/terms/language": [
+      {
+        "@value": "nl"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "https://data.futures-radar.example/agent/nl-gov"
+      }
+    ],
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@value": "NL"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "Open data van de Overheid"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#landingPage": [
+      {
+        "@id": "https://data.overheid.nl"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/homepage": [
+      {
+        "@id": "https://data.overheid.nl"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.futures-radar.example/catalog/ru-data-gov",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Catalog"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "The Open Data Portal of the Russian Federation is a comprehensive government system that ensures open information on the activities of government bodies and provides centralized access to open government information resources to all citizens and organizations."
+      }
+    ],
+    "http://purl.org/dc/terms/language": [
+      {
+        "@value": "ru"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "https://data.futures-radar.example/agent/ru-gov"
+      }
+    ],
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@value": "RU"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "Портал открытых данных Российской Федерации"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#landingPage": [
+      {
+        "@id": "https://data.gov.ru/"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/homepage": [
+      {
+        "@id": "https://data.gov.ru/"
       }
     ]
   },
@@ -938,6 +656,329 @@
     ]
   },
   {
+    "@id": "https://data.futures-radar.example/catalog/uk-national-archives",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Catalog"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "The National Archives is the official archive of the UK government and preserves the nation’s public record."
+      }
+    ],
+    "http://purl.org/dc/terms/language": [
+      {
+        "@value": "en"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "https://data.futures-radar.example/agent/uk-gov"
+      }
+    ],
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@value": "UK"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "UK National Archives"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#landingPage": [
+      {
+        "@id": "https://discovery.nationalarchives.gov.uk/"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/homepage": [
+      {
+        "@id": "https://discovery.nationalarchives.gov.uk/"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.futures-radar.example/catalog/open-africa",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Catalog"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "Aims to be the largest independent repository of open data on the African continent."
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "https://data.futures-radar.example/agent/openafrica"
+      }
+    ],
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@value": "Africa"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "Open Africa"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#landingPage": [
+      {
+        "@id": "https://open.africa/dataset"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/homepage": [
+      {
+        "@id": "https://open.africa/"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.futures-radar.example/catalog/imf-data",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Catalog"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "Access to economic and financial data."
+      }
+    ],
+    "http://purl.org/dc/terms/language": [
+      {
+        "@value": "en"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "https://data.futures-radar.example/agent/imf"
+      }
+    ],
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@value": "Global"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "IMF Data"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#landingPage": [
+      {
+        "@id": "https://data.imf.org"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/homepage": [
+      {
+        "@id": "https://data.imf.org"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.futures-radar.example/catalog/br-dados-gov",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Catalog"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "Dados.gov.br is the Brazilian Federal Government’s Portal de Dados Abertos, providing a central catalogue and infrastructure for government organisations to publish and users to discover open datasets."
+      }
+    ],
+    "http://purl.org/dc/terms/language": [
+      {
+        "@value": "pt"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "https://data.futures-radar.example/agent/br-gov"
+      }
+    ],
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@value": "BR"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "Portal Brasileiro de Dados Abertos"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#landingPage": [
+      {
+        "@id": "https://dados.gov.br"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/homepage": [
+      {
+        "@id": "https://dados.gov.br"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.futures-radar.example/catalog/oecd-data",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Catalog"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "The OECD Data Explorer is the organisation's data warehouse, providing access to all OECD statistical data.  It is the entry point for figures on a wide range of statistical topics, covering OECD member countries and partner economies."
+      }
+    ],
+    "http://purl.org/dc/terms/language": [
+      {
+        "@value": "en"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "https://data.futures-radar.example/agent/oecd"
+      }
+    ],
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@value": "Global"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "OECD Data"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#landingPage": [
+      {
+        "@id": "https://data.oecd.org"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/homepage": [
+      {
+        "@id": "https://data.oecd.org"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.futures-radar.example/catalog/harvard-dataverse",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Catalog"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "An open source web application for sharing, preserving, citing, exploring, and analyzing research data."
+      }
+    ],
+    "http://purl.org/dc/terms/language": [
+      {
+        "@value": "en"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "https://data.futures-radar.example/agent/university-harvard"
+      }
+    ],
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@value": "Global"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "Harvard Dataverse"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#landingPage": [
+      {
+        "@id": "https://dataverse.harvard.edu/"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/homepage": [
+      {
+        "@id": "https://dataverse.harvard.edu/"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.futures-radar.example/catalog/in-data-gov",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Catalog"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "Data.gov.in is India’s Open Government Data (OGD) Platform, a Government of India/Digital India initiative through which ministries and departments publish government datasets."
+      }
+    ],
+    "http://purl.org/dc/terms/language": [
+      {
+        "@value": "hi||en"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "https://data.futures-radar.example/agent/in-gov"
+      }
+    ],
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@value": "IN"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "Open Government Data Platform India"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#landingPage": [
+      {
+        "@id": "https://data.gov.in"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/homepage": [
+      {
+        "@id": "https://data.gov.in"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.futures-radar.example/catalog/ca-data",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Catalog"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "Open.Canada.ca is the Government of Canada’s Open Government portal, bringing together open government data and information from federal and participating other jurisdictions."
+      }
+    ],
+    "http://purl.org/dc/terms/language": [
+      {
+        "@value": "en||fr"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "https://data.futures-radar.example/agent/ca-gov"
+      }
+    ],
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@value": "CA"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "Open Government Portal Canada"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#landingPage": [
+      {
+        "@id": "https://search.open.canada.ca/opendata/"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/homepage": [
+      {
+        "@id": "https://open.canada.ca/en"
+      }
+    ]
+  },
+  {
     "@id": "https://data.futures-radar.example/catalog/es-datos-gob",
     "@type": [
       "http://www.w3.org/ns/dcat#Catalog"
@@ -979,13 +1020,13 @@
     ]
   },
   {
-    "@id": "https://data.futures-radar.example/catalog/uk-ons",
+    "@id": "https://data.futures-radar.example/catalog/uk-adruk",
     "@type": [
       "http://www.w3.org/ns/dcat#Catalog"
     ],
     "http://purl.org/dc/terms/description": [
       {
-        "@value": "The ONS is the UK’s largest independent producer of official statistics and the country’s recognised national statistical institute."
+        "@value": "ADR UK is a UK-wide partnership that enables public-sector administrative data to be securely linked and accessed for research."
       }
     ],
     "http://purl.org/dc/terms/language": [
@@ -1005,28 +1046,28 @@
     ],
     "http://purl.org/dc/terms/title": [
       {
-        "@value": "UK Office for National Statistics"
+        "@value": "Administrative Data Research UK"
       }
     ],
     "http://www.w3.org/ns/dcat#landingPage": [
       {
-        "@id": "https://www.ons.gov.uk/"
+        "@id": "https://www.adruk.org/data-access/data-catalogue/"
       }
     ],
     "http://xmlns.com/foaf/0.1/homepage": [
       {
-        "@id": "https://www.ons.gov.uk/"
+        "@id": "https://www.adruk.org/data-access/data-catalogue/"
       }
     ]
   },
   {
-    "@id": "https://data.futures-radar.example/catalog/undata",
+    "@id": "https://data.futures-radar.example/catalog/sg-data-gov",
     "@type": [
       "http://www.w3.org/ns/dcat#Catalog"
     ],
     "http://purl.org/dc/terms/description": [
       {
-        "@value": "UNdata brings international statistical databases within easy reach of users through a single-entry point. Users can search and download a variety of statistical resources compiled by the United Nations (UN) statistical system and other international agencies."
+        "@value": "Data.gov.sg is Singapore’s open government data platform."
       }
     ],
     "http://purl.org/dc/terms/language": [
@@ -1036,68 +1077,27 @@
     ],
     "http://purl.org/dc/terms/publisher": [
       {
-        "@id": "https://data.futures-radar.example/agent/un"
+        "@id": "https://data.futures-radar.example/agent/sg-gov"
       }
     ],
     "http://purl.org/dc/terms/spatial": [
       {
-        "@value": "Global"
+        "@value": "SG"
       }
     ],
     "http://purl.org/dc/terms/title": [
       {
-        "@value": "UNdata"
+        "@value": "Singapore's open data portal"
       }
     ],
     "http://www.w3.org/ns/dcat#landingPage": [
       {
-        "@id": "https://data.un.org"
+        "@id": "https://data.gov.sg"
       }
     ],
     "http://xmlns.com/foaf/0.1/homepage": [
       {
-        "@id": "https://data.un.org"
-      }
-    ]
-  },
-  {
-    "@id": "https://data.futures-radar.example/catalog/de-data-gov",
-    "@type": [
-      "http://www.w3.org/ns/dcat#Catalog"
-    ],
-    "http://purl.org/dc/terms/description": [
-      {
-        "@value": "GovData is Germany’s data portal, providing a single central point of access to administrative data from federal, state and municipal levels of government as well as other public-sector sources."
-      }
-    ],
-    "http://purl.org/dc/terms/language": [
-      {
-        "@value": "de"
-      }
-    ],
-    "http://purl.org/dc/terms/publisher": [
-      {
-        "@id": "https://data.futures-radar.example/agent/de-gov"
-      }
-    ],
-    "http://purl.org/dc/terms/spatial": [
-      {
-        "@value": "DE"
-      }
-    ],
-    "http://purl.org/dc/terms/title": [
-      {
-        "@value": "Das Datenportal für Deutschland"
-      }
-    ],
-    "http://www.w3.org/ns/dcat#landingPage": [
-      {
-        "@id": "https://govdata.de"
-      }
-    ],
-    "http://xmlns.com/foaf/0.1/homepage": [
-      {
-        "@id": "https://govdata.de"
+        "@id": "https://data.gov.sg"
       }
     ]
   }
