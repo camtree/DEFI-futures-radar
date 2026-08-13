@@ -1,0 +1,92 @@
+@prefix agent: <https://data.futures-radar.example/agent/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+agent:asean a foaf:Organization ;
+    skos:altLabel "ASEAN" ;
+    foaf:homepage <https://asean.org> ;
+    foaf:name "Association of Southeast Asian Nations" .
+
+agent:ca-gov a foaf:Organization ;
+    foaf:homepage <https://www.canada.ca> ;
+    foaf:name "Government of Canada" .
+
+agent:de-gov a foaf:Organization ;
+    foaf:homepage <https://verwaltung.bund.de> ;
+    foaf:name "Government of Germany" .
+
+agent:es-gov a foaf:Organization ;
+    foaf:homepage <https://www.lamoncloa.gob.es> ;
+    foaf:name "Government of Spain" .
+
+agent:eu a foaf:Organization ;
+    skos:altLabel "EU" ;
+    foaf:homepage <https://european-union.europa.eu> ;
+    foaf:name "European Union" .
+
+agent:imf a foaf:Organization ;
+    skos:altLabel "IMF" ;
+    foaf:homepage <https://www.imf.org> ;
+    foaf:name "International Monetary Fund" .
+
+agent:in-gov a foaf:Organization ;
+    foaf:homepage <https://www.india.gov.in> ;
+    foaf:name "Government of India" .
+
+agent:nl-gov a foaf:Organization ;
+    foaf:homepage <https://www.government.nl> ;
+    foaf:name "Government of the Netherlands" .
+
+agent:oecd a foaf:Organization ;
+    skos:altLabel "OECD" ;
+    foaf:homepage <https://www.oecd.org> ;
+    foaf:name "Organisation for Economic Co-operation and Development" .
+
+agent:openafrica a foaf:Organization ;
+    foaf:homepage <https://open.africa> ;
+    foaf:name "Open Africa" .
+
+agent:ru-gov a foaf:Organization ;
+    foaf:homepage <https://government.ru> ;
+    foaf:name "Government of the Russian Federation" .
+
+agent:sg-gov a foaf:Organization ;
+    foaf:homepage <https://www.gov.sg> ;
+    foaf:name "Government of Singapore" .
+
+agent:uk-gov a foaf:Organization ;
+    foaf:homepage <https://www.gov.uk> ;
+    foaf:name "UK Government" .
+
+agent:un a foaf:Organization ;
+    skos:altLabel "UN" ;
+    foaf:homepage <https://www.un.org> ;
+    foaf:name "United Nations" .
+
+agent:unesco a foaf:Organization ;
+    skos:altLabel "UNESCO" ;
+    foaf:homepage <https://www.unesco.org> ;
+    foaf:name "United Nations Educational, Scientific and Cultural Organization" .
+
+agent:unicef a foaf:Organization ;
+    skos:altLabel "UNICEF" ;
+    foaf:homepage <https://www.unicef.org> ;
+    foaf:name "United Nations Children's Fund" .
+
+agent:university-harvard a foaf:Organization ;
+    foaf:homepage <https://www.harvard.edu> ;
+    foaf:name "University of Harvard" .
+
+agent:unops a foaf:Organization ;
+    skos:altLabel "UNOPS" ;
+    foaf:homepage <https://www.unops.org> ;
+    foaf:name "United Nations Office for Project Services" .
+
+agent:us-gov a foaf:Organization ;
+    foaf:homepage <https://www.usa.gov> ;
+    foaf:name "Government of the United States of America" .
+
+agent:world-bank a foaf:Organization ;
+    foaf:homepage <https://www.worldbank.org> ;
+    foaf:name "The World Bank" .
+

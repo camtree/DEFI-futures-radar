@@ -1,0 +1,19 @@
+@prefix agent: <https://data.futures-radar.example/agent/> .
+@prefix catalog: <https://data.futures-radar.example/catalog/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<https://data.futures-radar.example/dataset/data-worldbank-org/indicator/SE.PRM.CMPT.FE.ZS> a dcat:Dataset ;
+    dcterms:accrualPeriodicity <http://purl.org/cld/freq/annual> ;
+    dcterms:identifier "https://api.worldbank.org/v2/en/indicator/SE.PRM.CMPT.ZS?downloadformat=csv" ;
+    dcterms:isPartOf catalog:world-bank-data-catalogue ;
+    dcterms:issued "2026-02" ;
+    dcterms:language "en" ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:publisher agent:world-bank ;
+    dcterms:spatial "Global" ;
+    dcterms:subject <http://metadata.un.org/sdg/C040102> ;
+    dcterms:temporal "1972/2026" ;
+    dcterms:title "Primary completion rate, female (% of relevant age group)" ;
+    dcat:landingPage <https://data.worldbank.org/indicator/SE.PRM.CMPT.FE.ZS> .
+

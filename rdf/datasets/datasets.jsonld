@@ -1,0 +1,68 @@
+[
+  {
+    "@id": "https://data.futures-radar.example/dataset/data-worldbank-org/indicator/SE.PRM.CMPT.FE.ZS",
+    "@type": [
+      "http://www.w3.org/ns/dcat#Dataset"
+    ],
+    "http://purl.org/dc/terms/accrualPeriodicity": [
+      {
+        "@id": "http://purl.org/cld/freq/annual"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "https://api.worldbank.org/v2/en/indicator/SE.PRM.CMPT.ZS?downloadformat=csv"
+      }
+    ],
+    "http://purl.org/dc/terms/isPartOf": [
+      {
+        "@id": "https://data.futures-radar.example/catalog/world-bank-data-catalogue"
+      }
+    ],
+    "http://purl.org/dc/terms/issued": [
+      {
+        "@value": "2026-02"
+      }
+    ],
+    "http://purl.org/dc/terms/language": [
+      {
+        "@value": "en"
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "http://purl.org/dc/terms/publisher": [
+      {
+        "@id": "https://data.futures-radar.example/agent/world-bank"
+      }
+    ],
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@value": "Global"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://metadata.un.org/sdg/C040102"
+      }
+    ],
+    "http://purl.org/dc/terms/temporal": [
+      {
+        "@value": "1972/2026"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "Primary completion rate, female (% of relevant age group)"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#landingPage": [
+      {
+        "@id": "https://data.worldbank.org/indicator/SE.PRM.CMPT.FE.ZS"
+      }
+    ]
+  }
+]

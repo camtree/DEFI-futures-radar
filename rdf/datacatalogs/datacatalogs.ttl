@@ -1,0 +1,248 @@
+@prefix agent: <https://data.futures-radar.example/agent/> .
+@prefix catalog: <https://data.futures-radar.example/catalog/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+catalog:asean-data-portal a dcat:Catalog ;
+    dcterms:description "Comprehensive overview of ASEAN's social, economic, and environment landscape." ;
+    dcterms:language "en" ;
+    dcterms:publisher agent:asean ;
+    dcterms:spatial "Asia" ;
+    dcterms:title "ASEANstats Data Portal" ;
+    dcat:landingPage <https://data.aseanstats.org/> ;
+    foaf:homepage <https://data.aseanstats.org/> .
+
+catalog:au-data-gov a dcat:Catalog ;
+    dcterms:description "Data.gov.au is the Australian Government’s national data portal, providing a central place for discovering government datasets and other public data resources." ;
+    dcterms:language "en" ;
+    dcterms:publisher agent:au-data-gov ;
+    dcterms:spatial "AU" ;
+    dcterms:title "Data.gov.au" ;
+    dcat:landingPage <https://data.gov.au/data/dataset> ;
+    foaf:homepage <https://data.gov.au> .
+
+catalog:br-dados-gov a dcat:Catalog ;
+    dcterms:description "Dados.gov.br is the Brazilian Federal Government’s Portal de Dados Abertos, providing a central catalogue and infrastructure for government organisations to publish and users to discover open datasets." ;
+    dcterms:language "pt" ;
+    dcterms:publisher agent:br-gov ;
+    dcterms:spatial "BR" ;
+    dcterms:title "Portal Brasileiro de Dados Abertos" ;
+    dcat:landingPage <https://dados.gov.br> ;
+    foaf:homepage <https://dados.gov.br> .
+
+catalog:ca-data a dcat:Catalog ;
+    dcterms:description "Open.Canada.ca is the Government of Canada’s Open Government portal, bringing together open government data and information from federal and participating other jurisdictions." ;
+    dcterms:language "en||fr" ;
+    dcterms:publisher agent:ca-gov ;
+    dcterms:spatial "CA" ;
+    dcterms:title "Open Government Portal Canada" ;
+    dcat:landingPage <https://search.open.canada.ca/opendata/> ;
+    foaf:homepage <https://open.canada.ca/en> .
+
+catalog:de-data-gov a dcat:Catalog ;
+    dcterms:description "GovData is Germany’s data portal, providing a single central point of access to administrative data from federal, state and municipal levels of government as well as other public-sector sources." ;
+    dcterms:language "de" ;
+    dcterms:publisher agent:de-gov ;
+    dcterms:spatial "DE" ;
+    dcterms:title "Das Datenportal für Deutschland" ;
+    dcat:landingPage <https://govdata.de> ;
+    foaf:homepage <https://govdata.de> .
+
+catalog:es-datos-gob a dcat:Catalog ;
+    dcterms:description "Datos.gob.es is Spain’s national open-data initiative and platform, bringing together the national catalogue of open datasets as well as guidance, learning materials and information about data and reuse." ;
+    dcterms:language "es" ;
+    dcterms:publisher agent:es-gov ;
+    dcterms:spatial "ES" ;
+    dcterms:title "Datos Abiertos del Gobierno de España" ;
+    dcat:landingPage <https://datos.gob.es> ;
+    foaf:homepage <https://datos.gob.es> .
+
+catalog:eurostat a dcat:Catalog ;
+    dcterms:description "High-quality statistics and data on Europe." ;
+    dcterms:language "en||fr||de" ;
+    dcterms:publisher agent:eurostat ;
+    dcterms:spatial "Europe" ;
+    dcterms:title "Eurostat" ;
+    dcat:landingPage <https://ec.europa.eu/eurostat> ;
+    foaf:homepage <https://ec.europa.eu/eurostat> .
+
+catalog:harvard-dataverse a dcat:Catalog ;
+    dcterms:description "An open source web application for sharing, preserving, citing, exploring, and analyzing research data." ;
+    dcterms:language "en" ;
+    dcterms:publisher agent:university-harvard ;
+    dcterms:spatial "Global" ;
+    dcterms:title "Harvard Dataverse" ;
+    dcat:landingPage <https://dataverse.harvard.edu/> ;
+    foaf:homepage <https://dataverse.harvard.edu/> .
+
+catalog:imf-data a dcat:Catalog ;
+    dcterms:description "Access to economic and financial data." ;
+    dcterms:language "en" ;
+    dcterms:publisher agent:imf ;
+    dcterms:spatial "Global" ;
+    dcterms:title "IMF Data" ;
+    dcat:landingPage <https://data.imf.org> ;
+    foaf:homepage <https://data.imf.org> .
+
+catalog:in-data-gov a dcat:Catalog ;
+    dcterms:description "Data.gov.in is India’s Open Government Data (OGD) Platform, a Government of India/Digital India initiative through which ministries and departments publish government datasets." ;
+    dcterms:language "hi||en" ;
+    dcterms:publisher agent:in-gov ;
+    dcterms:spatial "IN" ;
+    dcterms:title "Open Government Data Platform India" ;
+    dcat:landingPage <https://data.gov.in> ;
+    foaf:homepage <https://data.gov.in> .
+
+catalog:nl-data-overheid a dcat:Catalog ;
+    dcterms:description "Data.overheid.nl is the National Data Portal of the Dutch government, describing and providing access to Dutch government data, including both open and restricted datasets." ;
+    dcterms:language "nl" ;
+    dcterms:publisher agent:nl-gov ;
+    dcterms:spatial "NL" ;
+    dcterms:title "Open data van de Overheid" ;
+    dcat:landingPage <https://data.overheid.nl> ;
+    foaf:homepage <https://data.overheid.nl> .
+
+catalog:oecd-data a dcat:Catalog ;
+    dcterms:description "The OECD Data Explorer is the organisation's data warehouse, providing access to all OECD statistical data.  It is the entry point for figures on a wide range of statistical topics, covering OECD member countries and partner economies." ;
+    dcterms:language "en" ;
+    dcterms:publisher agent:oecd ;
+    dcterms:spatial "Global" ;
+    dcterms:title "OECD Data" ;
+    dcat:landingPage <https://data.oecd.org> ;
+    foaf:homepage <https://data.oecd.org> .
+
+catalog:open-africa a dcat:Catalog ;
+    dcterms:description "Aims to be the largest independent repository of open data on the African continent." ;
+    dcterms:publisher agent:openafrica ;
+    dcterms:spatial "Africa" ;
+    dcterms:title "Open Africa" ;
+    dcat:landingPage <https://open.africa/dataset> ;
+    foaf:homepage <https://open.africa/> .
+
+catalog:ru-data-gov a dcat:Catalog ;
+    dcterms:description "The Open Data Portal of the Russian Federation is a comprehensive government system that ensures open information on the activities of government bodies and provides centralized access to open government information resources to all citizens and organizations." ;
+    dcterms:language "ru" ;
+    dcterms:publisher agent:ru-gov ;
+    dcterms:spatial "RU" ;
+    dcterms:title "Портал открытых данных Российской Федерации" ;
+    dcat:landingPage <https://data.gov.ru/> ;
+    foaf:homepage <https://data.gov.ru/> .
+
+catalog:sg-data-gov a dcat:Catalog ;
+    dcterms:description "Data.gov.sg is Singapore’s open government data platform." ;
+    dcterms:language "en" ;
+    dcterms:publisher agent:sg-gov ;
+    dcterms:spatial "SG" ;
+    dcterms:title "Singapore's open data portal" ;
+    dcat:landingPage <https://data.gov.sg> ;
+    foaf:homepage <https://data.gov.sg> .
+
+catalog:uk-adruk a dcat:Catalog ;
+    dcterms:description "ADR UK is a UK-wide partnership that enables public-sector administrative data to be securely linked and accessed for research." ;
+    dcterms:language "en" ;
+    dcterms:publisher agent:uk-gov ;
+    dcterms:spatial "UK" ;
+    dcterms:title "Administrative Data Research UK" ;
+    dcat:landingPage <https://www.adruk.org/data-access/data-catalogue/> ;
+    foaf:homepage <https://www.adruk.org/data-access/data-catalogue/> .
+
+catalog:uk-data-gov a dcat:Catalog ;
+    dcterms:description "The National Data Library is the UK government’s central service for finding and using public-sector data." ;
+    dcterms:language "en" ;
+    dcterms:publisher agent:uk-gov ;
+    dcterms:spatial "UK" ;
+    dcterms:title "UK National Data Library" ;
+    dcat:landingPage <https://www.data.gov.uk/> ;
+    foaf:homepage <https://www.data.gov.uk/> .
+
+catalog:uk-data-service a dcat:Catalog ;
+    dcterms:description "The UK Data Service is the UK’s principal repository for economic, population and social research data." ;
+    dcterms:language "en" ;
+    dcterms:publisher agent:uk-gov ;
+    dcterms:spatial "UK" ;
+    dcterms:title "UK Data Service" ;
+    dcat:landingPage <https://datacatalogue.ukdataservice.ac.uk/> ;
+    foaf:homepage <https://datacatalogue.ukdataservice.ac.uk/> .
+
+catalog:uk-national-archives a dcat:Catalog ;
+    dcterms:description "The National Archives is the official archive of the UK government and preserves the nation’s public record." ;
+    dcterms:language "en" ;
+    dcterms:publisher agent:uk-gov ;
+    dcterms:spatial "UK" ;
+    dcterms:title "UK National Archives" ;
+    dcat:landingPage <https://discovery.nationalarchives.gov.uk/> ;
+    foaf:homepage <https://discovery.nationalarchives.gov.uk/> .
+
+catalog:uk-ons a dcat:Catalog ;
+    dcterms:description "The ONS is the UK’s largest independent producer of official statistics and the country’s recognised national statistical institute." ;
+    dcterms:language "en" ;
+    dcterms:publisher agent:uk-gov ;
+    dcterms:spatial "UK" ;
+    dcterms:title "UK Office for National Statistics" ;
+    dcat:landingPage <https://www.ons.gov.uk/> ;
+    foaf:homepage <https://www.ons.gov.uk/> .
+
+catalog:un-sdg-indicators a dcat:Catalog ;
+    dcterms:description "Access to data on more than 210 SDG indicators for countries, areas or regions across the globe." ;
+    dcterms:language "en" ;
+    dcterms:publisher agent:un ;
+    dcterms:spatial "UK" ;
+    dcterms:title "UN SDG Indicators Database" ;
+    dcat:landingPage <https://unstats.un.org/sdgs/metadata/> ;
+    foaf:homepage <https://unstats.un.org/sdgs/metadata/> .
+
+catalog:undata a dcat:Catalog ;
+    dcterms:description "UNdata brings international statistical databases within easy reach of users through a single-entry point. Users can search and download a variety of statistical resources compiled by the United Nations (UN) statistical system and other international agencies." ;
+    dcterms:language "en" ;
+    dcterms:publisher agent:un ;
+    dcterms:spatial "Global" ;
+    dcterms:title "UNdata" ;
+    dcat:landingPage <https://data.un.org> ;
+    foaf:homepage <https://data.un.org> .
+
+catalog:unicef-data a dcat:Catalog ;
+    dcterms:description "Leads the collection, validation, analysis, use and communication of the most statistically sound, internationally comparable data on the situation of children and women around the world." ;
+    dcterms:language "en" ;
+    dcterms:publisher agent:unicef ;
+    dcterms:spatial "Global" ;
+    dcterms:title "UNICEF Data" ;
+    dcat:landingPage <https://data.unicef.org> ;
+    foaf:homepage <https://data.unicef.org> .
+
+catalog:unis a dcat:Catalog ;
+    dcterms:description "Source of internationally comparable data on education, science, culture and communication. The official statistical agency of UNESCO, and the custodian agency for Sustainable Development Goal 4 on Education." ;
+    dcterms:language "en" ;
+    dcterms:publisher agent:unesco ;
+    dcterms:spatial "Global" ;
+    dcterms:title "UNESCO Institute for Statistics" ;
+    dcat:landingPage <https://databrowser.uis.unesco.org> ;
+    foaf:homepage <https://databrowser.uis.unesco.org> .
+
+catalog:unops-data a dcat:Catalog ;
+    dcterms:description "A platform that provides users with dynamic and linked information about UNOPS projects going back to 2018, including over 1,000 ongoing projects around the world." ;
+    dcterms:language "en" ;
+    dcterms:publisher agent:unops ;
+    dcterms:spatial "Global" ;
+    dcterms:title "UNOPS Data Portal" ;
+    dcat:landingPage <https://data.unops.org> ;
+    foaf:homepage <https://data.unops.org> .
+
+catalog:usa-data-gov a dcat:Catalog ;
+    dcterms:description "The United States Government’s open-data site. Publishes government open data to inform public and policymaker decisions, stimulate innovation and economic activity, support agencies in their missions, and strengthen open and transparent government." ;
+    dcterms:language "en" ;
+    dcterms:publisher agent:us-gov ;
+    dcterms:spatial "USA" ;
+    dcterms:title "Data.gov" ;
+    dcat:landingPage <https://data.gov/> ;
+    foaf:homepage <https://data.gov/> .
+
+catalog:world-bank-data-catalogue a dcat:Catalog ;
+    dcterms:description "The Data Catalog is designed to make World Bank's development data easy to find, download, use, and share. It includes data from the World Bank's microdata, finances and energy data platforms, as well as datasets from the open data catalog." ;
+    dcterms:language "en" ;
+    dcterms:publisher agent:world-bank ;
+    dcterms:spatial "Global" ;
+    dcterms:title "World Bank Data Catalogue" ;
+    dcat:landingPage <https://datacatalog.worldbank.org/> ;
+    foaf:homepage <https://datacatalog.worldbank.org/> .
+
