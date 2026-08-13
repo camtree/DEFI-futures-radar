@@ -3,6 +3,13 @@
 This is a (currently private) repository for documentation, datasets, application profiles and prototypes.
 It is associated with a [Github project space](https://github.com/users/camtree/projects/4) which is used for planning and task management.
 
+# Development and Deployment Pipeline
+
+Content is developed offline and local applications can be tested as localhost.  
+Patrick currently uses Pycharm as the development environment.
+This is set up to push content into this repository.
+For public deployment, we use Render to build and deploy Flask Apps (and potentially static content and web services as needed).
+
 ## Data Explorer
 
 The Flask app is a small local data catalogue explorer. It reads generated
