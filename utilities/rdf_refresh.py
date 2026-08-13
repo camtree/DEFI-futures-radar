@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Refresh Turtle and JSON-LD RDF outputs from source data."""
+"""Refresh Turtle and JSON-LD RDF outputs from source metadata."""
 
 from __future__ import annotations
 
@@ -13,7 +13,7 @@ from rdflib.namespace import DCAT, DCTERMS, FOAF, RDF as RDF_NS, SKOS, XSD
 
 
 BASE = Namespace("https://data.futures-radar.example/")
-DEFAULT_DATA_DIR = Path("data")
+DEFAULT_METADATA_DIR = Path("metadata")
 DEFAULT_OUTPUT_DIR = Path("rdf")
 
 # CSV column names and cell values use compact RDF names, for example
@@ -87,12 +87,12 @@ def object_for(predicate_name: str, value: str):
     return Literal(value)
 
 
-def iter_csv_files(data_dir: Path) -> Iterable[Path]:
-    """Find source CSV files recursively so data subfolders become RDF subfolders."""
-    return sorted(data_dir.glob("**/*.csv"))
+def iter_csv_files(metadata_dir: Path) -> Iterable[Path]:
+    """Find source CSV files recursively so metadata subfolders become RDF subfolders."""
+    return sorted(metadata_dir.glob("**/*.csv"))
 
 
-def convert_csv(csv_path: Path, data_dir: Path, output_dir: Path) -> tuple[Path, Path, int]:
+def convert_csv(csv_path: Path, metadata_dir: Path, output_dir: Path) -> tuple[Path, Path, int]:
     """Convert one RDF-shaped CSV file into matching Turtle and JSON-LD files."""
     graph = Graph()
     bind_namespaces(graph)
@@ -125,8 +125,8 @@ def convert_csv(csv_path: Path, data_dir: Path, output_dir: Path) -> tuple[Path,
                 graph.add((subject, to_predicate(column_name), object_for(column_name, value)))
 
     # Preserve the source folder structure under rdf/, for example
-    # data/agents/agents.csv -> rdf/agents/agents.jsonld.
-    relative_parent = csv_path.parent.relative_to(data_dir)
+    # metadata/agents/agents.csv -> rdf/agents/agents.jsonld.
+    relative_parent = csv_path.parent.relative_to(metadata_dir)
     target_dir = output_dir / relative_parent
     target_dir.mkdir(parents=True, exist_ok=True)
 
@@ -139,18 +139,18 @@ def convert_csv(csv_path: Path, data_dir: Path, output_dir: Path) -> tuple[Path,
 
 
 def refresh_rdf_outputs(
-    data_dir: Path = DEFAULT_DATA_DIR,
+    metadata_dir: Path = DEFAULT_METADATA_DIR,
     output_dir: Path = DEFAULT_OUTPUT_DIR,
     base_dir: Path | None = None,
 ) -> list[dict[str, Path | int]]:
     """Refresh all generated RDF files and return paths for the admin page."""
-    csv_files = list(iter_csv_files(data_dir))
+    csv_files = list(iter_csv_files(metadata_dir))
     if not csv_files:
-        raise ValueError(f"No CSV files found under {data_dir}")
+        raise ValueError(f"No CSV files found under {metadata_dir}")
 
     results = []
     for csv_path in csv_files:
-        ttl_path, jsonld_path, row_count = convert_csv(csv_path, data_dir, output_dir)
+        ttl_path, jsonld_path, row_count = convert_csv(csv_path, metadata_dir, output_dir)
         results.append(
             {
                 "source_path": display_path(csv_path, base_dir),
@@ -175,12 +175,12 @@ def display_path(path: Path, base_dir: Path | None) -> Path:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--data-dir", type=Path, default=DEFAULT_DATA_DIR)
+    parser.add_argument("--metadata-dir", type=Path, default=DEFAULT_METADATA_DIR)
     parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT_DIR)
     args = parser.parse_args()
 
     try:
-        results = refresh_rdf_outputs(args.data_dir, args.output_dir)
+        results = refresh_rdf_outputs(args.metadata_dir, args.output_dir)
     except ValueError as exc:
         raise SystemExit(str(exc)) from exc
 

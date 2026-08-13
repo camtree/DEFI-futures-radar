@@ -31,7 +31,7 @@ JSON-LD outputs.
 
 ## Refresh RDF Outputs
 
-The CSV files under `data/` use RDF-style column names such as `@id`,
+The CSV files under `metadata/` use RDF-style column names such as `@id`,
 `rdf:type`, `foaf:name`, and `dcterms:title`.
 
 Generate Turtle and JSON-LD files:
@@ -41,5 +41,5 @@ python utilities/rdf_refresh.py
 ```
 
 By default this writes files to `rdf/`, preserving the folder names from
-`data/`, for example `rdf/agents/agents.ttl` and
+`metadata/`, for example `rdf/agents/agents.ttl` and
 `rdf/datacatalogs/datacatalogs.jsonld`.
