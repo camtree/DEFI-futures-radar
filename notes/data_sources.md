@@ -20,3 +20,9 @@ https://data.un.org/en/reg/g1.html
 This is a projections dataset of population, fertility and migration from mid 20th to mid 21st C:
 Compact (26Mb) version (medium projections): [https://population.un.org/wpp/assets/Excel%20Files/1_Indicator%20(Standard)/EXCEL_FILES/1_General/WPP2024_GEN_F01_DEMOGRAPHIC_INDICATORS_COMPACT.xlsx]
 Full (143Mb) version (all projections): [https://population.un.org/wpp/assets/Excel%20Files/1_Indicator%20(Standard)/EXCEL_FILES/1_General/WPP2024_GEN_F01_DEMOGRAPHIC_INDICATORS_FULL.xlsx]
+
+## WHO Global Health Observatory (GHO) data repository
+https://www.who.int/data/gho
+API is here: https://www.who.int/data/gho/info/gho-odata-api
+
+https://www.who.int/data/gho/whs-annex/ - specific indicator data tables for health and health systems, including mortality, morbidity, risk factors, health service coverage, and health workforce related to SDGs

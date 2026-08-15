@@ -24,6 +24,10 @@ agent:eu a foaf:Organization ;
     foaf:homepage <https://european-union.europa.eu> ;
     foaf:name "European Union" .
 
+agent:ilo a foaf:Organization ;
+    foaf:homepage <https://www.ilo.org> ;
+    foaf:name "International Labour Organisation" .
+
 agent:imf a foaf:Organization ;
     skos:altLabel "IMF" ;
     foaf:homepage <https://www.imf.org> ;

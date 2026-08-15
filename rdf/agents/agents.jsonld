@@ -1,85 +1,54 @@
 [
   {
-    "@id": "https://data.futures-radar.example/agent/oecd",
+    "@id": "https://data.futures-radar.example/agent/imf",
     "@type": [
       "http://xmlns.com/foaf/0.1/Organization"
     ],
     "http://www.w3.org/2004/02/skos/core#altLabel": [
       {
-        "@value": "OECD"
+        "@value": "IMF"
       }
     ],
     "http://xmlns.com/foaf/0.1/homepage": [
       {
-        "@id": "https://www.oecd.org"
+        "@id": "https://www.imf.org"
       }
     ],
     "http://xmlns.com/foaf/0.1/name": [
       {
-        "@value": "Organisation for Economic Co-operation and Development"
+        "@value": "International Monetary Fund"
       }
     ]
   },
   {
-    "@id": "https://data.futures-radar.example/agent/unicef",
+    "@id": "https://data.futures-radar.example/agent/ca-gov",
     "@type": [
       "http://xmlns.com/foaf/0.1/Organization"
     ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@value": "UNICEF"
-      }
-    ],
     "http://xmlns.com/foaf/0.1/homepage": [
       {
-        "@id": "https://www.unicef.org"
+        "@id": "https://www.canada.ca"
       }
     ],
     "http://xmlns.com/foaf/0.1/name": [
       {
-        "@value": "United Nations Children's Fund"
+        "@value": "Government of Canada"
       }
     ]
   },
   {
-    "@id": "https://data.futures-radar.example/agent/eu",
+    "@id": "https://data.futures-radar.example/agent/ilo",
     "@type": [
       "http://xmlns.com/foaf/0.1/Organization"
     ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@value": "EU"
-      }
-    ],
     "http://xmlns.com/foaf/0.1/homepage": [
       {
-        "@id": "https://european-union.europa.eu"
+        "@id": "https://www.ilo.org"
       }
     ],
     "http://xmlns.com/foaf/0.1/name": [
       {
-        "@value": "European Union"
-      }
-    ]
-  },
-  {
-    "@id": "https://data.futures-radar.example/agent/unops",
-    "@type": [
-      "http://xmlns.com/foaf/0.1/Organization"
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@value": "UNOPS"
-      }
-    ],
-    "http://xmlns.com/foaf/0.1/homepage": [
-      {
-        "@id": "https://www.unops.org"
-      }
-    ],
-    "http://xmlns.com/foaf/0.1/name": [
-      {
-        "@value": "United Nations Office for Project Services"
+        "@value": "International Labour Organisation"
       }
     ]
   },
@@ -96,118 +65,6 @@
     "http://xmlns.com/foaf/0.1/name": [
       {
         "@value": "The World Bank"
-      }
-    ]
-  },
-  {
-    "@id": "https://data.futures-radar.example/agent/sg-gov",
-    "@type": [
-      "http://xmlns.com/foaf/0.1/Organization"
-    ],
-    "http://xmlns.com/foaf/0.1/homepage": [
-      {
-        "@id": "https://www.gov.sg"
-      }
-    ],
-    "http://xmlns.com/foaf/0.1/name": [
-      {
-        "@value": "Government of Singapore"
-      }
-    ]
-  },
-  {
-    "@id": "https://data.futures-radar.example/agent/nl-gov",
-    "@type": [
-      "http://xmlns.com/foaf/0.1/Organization"
-    ],
-    "http://xmlns.com/foaf/0.1/homepage": [
-      {
-        "@id": "https://www.government.nl"
-      }
-    ],
-    "http://xmlns.com/foaf/0.1/name": [
-      {
-        "@value": "Government of the Netherlands"
-      }
-    ]
-  },
-  {
-    "@id": "https://data.futures-radar.example/agent/de-gov",
-    "@type": [
-      "http://xmlns.com/foaf/0.1/Organization"
-    ],
-    "http://xmlns.com/foaf/0.1/homepage": [
-      {
-        "@id": "https://verwaltung.bund.de"
-      }
-    ],
-    "http://xmlns.com/foaf/0.1/name": [
-      {
-        "@value": "Government of Germany"
-      }
-    ]
-  },
-  {
-    "@id": "https://data.futures-radar.example/agent/uk-gov",
-    "@type": [
-      "http://xmlns.com/foaf/0.1/Organization"
-    ],
-    "http://xmlns.com/foaf/0.1/homepage": [
-      {
-        "@id": "https://www.gov.uk"
-      }
-    ],
-    "http://xmlns.com/foaf/0.1/name": [
-      {
-        "@value": "UK Government"
-      }
-    ]
-  },
-  {
-    "@id": "https://data.futures-radar.example/agent/us-gov",
-    "@type": [
-      "http://xmlns.com/foaf/0.1/Organization"
-    ],
-    "http://xmlns.com/foaf/0.1/homepage": [
-      {
-        "@id": "https://www.usa.gov"
-      }
-    ],
-    "http://xmlns.com/foaf/0.1/name": [
-      {
-        "@value": "Government of the United States of America"
-      }
-    ]
-  },
-  {
-    "@id": "https://data.futures-radar.example/agent/in-gov",
-    "@type": [
-      "http://xmlns.com/foaf/0.1/Organization"
-    ],
-    "http://xmlns.com/foaf/0.1/homepage": [
-      {
-        "@id": "https://www.india.gov.in"
-      }
-    ],
-    "http://xmlns.com/foaf/0.1/name": [
-      {
-        "@value": "Government of India"
-      }
-    ]
-  },
-  {
-    "@id": "https://data.futures-radar.example/agent/openafrica",
-    "@type": [
-      "http://xmlns.com/foaf/0.1/Organization"
-    ],
-    "http://xmlns.com/foaf/0.1/homepage": [
-      {
-        "@id": "https://open.africa"
-      }
-    ],
-    "http://xmlns.com/foaf/0.1/name": [
-      {
-        "@value": "Open Africa"
       }
     ]
   },
@@ -233,23 +90,156 @@
     ]
   },
   {
-    "@id": "https://data.futures-radar.example/agent/imf",
+    "@id": "https://data.futures-radar.example/agent/us-gov",
+    "@type": [
+      "http://xmlns.com/foaf/0.1/Organization"
+    ],
+    "http://xmlns.com/foaf/0.1/homepage": [
+      {
+        "@id": "https://www.usa.gov"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@value": "Government of the United States of America"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.futures-radar.example/agent/nl-gov",
+    "@type": [
+      "http://xmlns.com/foaf/0.1/Organization"
+    ],
+    "http://xmlns.com/foaf/0.1/homepage": [
+      {
+        "@id": "https://www.government.nl"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@value": "Government of the Netherlands"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.futures-radar.example/agent/unicef",
     "@type": [
       "http://xmlns.com/foaf/0.1/Organization"
     ],
     "http://www.w3.org/2004/02/skos/core#altLabel": [
       {
-        "@value": "IMF"
+        "@value": "UNICEF"
       }
     ],
     "http://xmlns.com/foaf/0.1/homepage": [
       {
-        "@id": "https://www.imf.org"
+        "@id": "https://www.unicef.org"
       }
     ],
     "http://xmlns.com/foaf/0.1/name": [
       {
-        "@value": "International Monetary Fund"
+        "@value": "United Nations Children's Fund"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.futures-radar.example/agent/university-harvard",
+    "@type": [
+      "http://xmlns.com/foaf/0.1/Organization"
+    ],
+    "http://xmlns.com/foaf/0.1/homepage": [
+      {
+        "@id": "https://www.harvard.edu"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@value": "University of Harvard"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.futures-radar.example/agent/oecd",
+    "@type": [
+      "http://xmlns.com/foaf/0.1/Organization"
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "OECD"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/homepage": [
+      {
+        "@id": "https://www.oecd.org"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@value": "Organisation for Economic Co-operation and Development"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.futures-radar.example/agent/es-gov",
+    "@type": [
+      "http://xmlns.com/foaf/0.1/Organization"
+    ],
+    "http://xmlns.com/foaf/0.1/homepage": [
+      {
+        "@id": "https://www.lamoncloa.gob.es"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@value": "Government of Spain"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.futures-radar.example/agent/ru-gov",
+    "@type": [
+      "http://xmlns.com/foaf/0.1/Organization"
+    ],
+    "http://xmlns.com/foaf/0.1/homepage": [
+      {
+        "@id": "https://government.ru"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@value": "Government of the Russian Federation"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.futures-radar.example/agent/openafrica",
+    "@type": [
+      "http://xmlns.com/foaf/0.1/Organization"
+    ],
+    "http://xmlns.com/foaf/0.1/homepage": [
+      {
+        "@id": "https://open.africa"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@value": "Open Africa"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.futures-radar.example/agent/in-gov",
+    "@type": [
+      "http://xmlns.com/foaf/0.1/Organization"
+    ],
+    "http://xmlns.com/foaf/0.1/homepage": [
+      {
+        "@id": "https://www.india.gov.in"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@value": "Government of India"
       }
     ]
   },
@@ -275,50 +265,76 @@
     ]
   },
   {
-    "@id": "https://data.futures-radar.example/agent/university-harvard",
+    "@id": "https://data.futures-radar.example/agent/eu",
     "@type": [
       "http://xmlns.com/foaf/0.1/Organization"
     ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "EU"
+      }
+    ],
     "http://xmlns.com/foaf/0.1/homepage": [
       {
-        "@id": "https://www.harvard.edu"
+        "@id": "https://european-union.europa.eu"
       }
     ],
     "http://xmlns.com/foaf/0.1/name": [
       {
-        "@value": "University of Harvard"
+        "@value": "European Union"
       }
     ]
   },
   {
-    "@id": "https://data.futures-radar.example/agent/ca-gov",
+    "@id": "https://data.futures-radar.example/agent/de-gov",
     "@type": [
       "http://xmlns.com/foaf/0.1/Organization"
     ],
     "http://xmlns.com/foaf/0.1/homepage": [
       {
-        "@id": "https://www.canada.ca"
+        "@id": "https://verwaltung.bund.de"
       }
     ],
     "http://xmlns.com/foaf/0.1/name": [
       {
-        "@value": "Government of Canada"
+        "@value": "Government of Germany"
       }
     ]
   },
   {
-    "@id": "https://data.futures-radar.example/agent/es-gov",
+    "@id": "https://data.futures-radar.example/agent/sg-gov",
     "@type": [
       "http://xmlns.com/foaf/0.1/Organization"
     ],
     "http://xmlns.com/foaf/0.1/homepage": [
       {
-        "@id": "https://www.lamoncloa.gob.es"
+        "@id": "https://www.gov.sg"
       }
     ],
     "http://xmlns.com/foaf/0.1/name": [
       {
-        "@value": "Government of Spain"
+        "@value": "Government of Singapore"
+      }
+    ]
+  },
+  {
+    "@id": "https://data.futures-radar.example/agent/unops",
+    "@type": [
+      "http://xmlns.com/foaf/0.1/Organization"
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@value": "UNOPS"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/homepage": [
+      {
+        "@id": "https://www.unops.org"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@value": "United Nations Office for Project Services"
       }
     ]
   },
@@ -344,18 +360,18 @@
     ]
   },
   {
-    "@id": "https://data.futures-radar.example/agent/ru-gov",
+    "@id": "https://data.futures-radar.example/agent/uk-gov",
     "@type": [
       "http://xmlns.com/foaf/0.1/Organization"
     ],
     "http://xmlns.com/foaf/0.1/homepage": [
       {
-        "@id": "https://government.ru"
+        "@id": "https://www.gov.uk"
       }
     ],
     "http://xmlns.com/foaf/0.1/name": [
       {
-        "@value": "Government of the Russian Federation"
+        "@value": "UK Government"
       }
     ]
   }

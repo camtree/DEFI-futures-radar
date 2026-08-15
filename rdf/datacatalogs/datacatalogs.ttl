@@ -76,6 +76,15 @@ catalog:harvard-dataverse a dcat:Catalog ;
     dcat:landingPage <https://dataverse.harvard.edu/> ;
     foaf:homepage <https://dataverse.harvard.edu/> .
 
+catalog:ilostat a dcat:Catalog ;
+    dcterms:description "The Statistics Branch of the ILO Department of Research and Statistics is the focal point to the United Nations on labour statistics. We develop international standards for better measurement of labour issues and enhanced international comparability; provide relevant, timely and comparable labour statistics; and help Member States develop and improve their labour statistics." ;
+    dcterms:language "en" ;
+    dcterms:publisher agent:ilo ;
+    dcterms:spatial "Global" ;
+    dcterms:title "International Labour Organisation" ;
+    dcat:landingPage <https://ilostat.ilo.org/> ;
+    foaf:homepage <https://www.ilo.org/data-and-statistics> .
+
 catalog:imf-data a dcat:Catalog ;
     dcterms:description "Access to economic and financial data." ;
     dcterms:language "en" ;
